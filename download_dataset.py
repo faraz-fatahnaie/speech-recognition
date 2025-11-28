@@ -17,7 +17,6 @@ def main():
     os.makedirs(config['data_dir'], exist_ok=True)
     os.makedirs('models/saved_models', exist_ok=True)
     os.makedirs('logs', exist_ok=True)
-    os.makedirs('utils', exist_ok=True)
 
     print("Downloading LibriSpeech dataset...")
     print("This may take a while depending on your internet connection...")
